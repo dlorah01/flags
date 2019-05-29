@@ -1,0 +1,15 @@
+<div class="container custom-container-2">
+	<h1>Countries</h1>
+
+  <!-- Employees list table, it hides when there is no employee -->
+  <div *ngIf="Countries.length !== 0">
+    <div class="col-md-12">
+    	<div class="element" routerLink="/country-detail/{{country.name}}" *ngFor="let country of Countries">
+    		<img src="{{country.flag}}">
+    		<h6 >{{country.name}}</h6>
+    	</div>
+    </div>
+
+  </div>
+
+</div>

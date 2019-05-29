@@ -1,0 +1,22 @@
+
+
+.col-md-12{
+	float: left;
+}
+.element{
+	display: inline-block;
+	width: 20%;
+}
+
+.element img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 120px;
+}
+
+.element h6{
+	text-align: center;
+	height: 40px;
+}

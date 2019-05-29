@@ -1,0 +1,21 @@
+<div class="container custom-container-2">
+	<h1>{{countryData.name}}</h1>
+
+  <!-- Employees list table, it hides when there is no employee -->
+  <div *ngIf="countryData.length !== 0">
+    <div class="col-md-12">
+    	<div class="element" routerLink="/countries">
+    		<img src="{{countryData.flag}}">
+    		<h6 ><strong>Nombre: </strong>{{countryData.name}}. </h6>
+    		<h6 ><strong>Capital: </strong>{{countryData.capital}}.</h6>
+    		<h6 ><strong>Población: </strong>{{countryData.population}} personas.</h6>
+    		<h6 ><strong>Ubicación: </strong>{{countryData.region}}, {{countryData.subregion}}.</h6>
+    		<h6 ><strong>Coordenadas: </strong>{{countryData.latlng[0]}} , {{countryData.latlng[1]}}.</h6>
+    		<h6 ><strong>Area: </strong>{{countryData.area}} m2.</h6>
+    	</div>
+    	  <button class="btn btn-primary"  routerLink="/countries">Back</button>
+    </div>
+
+  </div>
+
+</div>
