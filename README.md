@@ -1,6 +1,6 @@
 # Flags
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+A project focused on manipulating info using an external API. In this case, we want to show all countries flags and its basic information. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
 
